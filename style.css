@@ -122,6 +122,9 @@ Footer{
 .Profissionais{
     width: 40%;
 }
+.Produtos>img{
+    width:15%;
+}
 
 @media(Max-width:1224px){
     .Titulo{
@@ -165,12 +168,20 @@ Footer{
         padding: auto;
         font-size: 2rem;
     }
+
+    main{
+        width: 100%;
+        margin-left: -0.3%;
+    }
   
     .Coluna1{
-        margin:auto;
-        width: 100%;
+        margin: auto;
+        width:80%;
         position: relative;
         overflow: hidden;
+    }
+    .Fotos{
+        width: 500px;
     }
 
     .Local>address>a{
@@ -180,24 +191,21 @@ Footer{
         margin-left: -1em;
     }
     Main>Section>article>h1{
-        font-size: 20px;
+        font-size: 4rem;
     }
     Main>section>h1{
-        font-size: 20px;
+        font-size:4rem;
+    }
+    .Profissionais{
+        width: 450px;
+    }
+    .Produtos>img{
+        width: 145px;
+        margin-right: 3px;
     }
 
 }
-@media(Max-witdh: 672px){
-    .Coluna1{
-        margin:auto;
-        width: 100%;
-        position: relative;
-        overflow: hidden;
-    }
-    .Fotos{
-        width: 500px
-    }
-}
+
 @media(Max-width: 522px) {
     header{
         max-width: 100vw;
@@ -223,7 +231,7 @@ Footer{
     font-size: 2rem;
 }
     Nav>a{
-        font-size: 1.4rem;
+        font-size: 1.7rem;
         margin: 0px 10px 0px 25px;
     }
     .Redes{
@@ -232,19 +240,21 @@ Footer{
         margin-top: -6em;
      }
      Main>Section>article>h1{
-        font-size: 15px;
+        font-size: 25px;
     }
     Main>section>h1{
-        font-size: 15px;
+        font-size: 25px;
     }
+    
 }
-@media(Max-width: 460px){
+@media(Max-width: 496px){
     header{
-       width: auto;
+       position: relative;
+       right: -0.4em;
     }
     .Titulo>h1,h2{
         color: white;
-        font-size: 28px;
+        font-size: 32px;
         margin-top: 126px;
         margin-bottom: -124px;
     }
@@ -266,20 +276,20 @@ Footer{
     Nav>a{
         position: relative;
         background-color: #E48900;
-        margin: -6em 1.8em 0em 1em;
+        margin: -6em 0.2em 0em 1em;
         padding: auto;
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
     
     .Coluna1{
         margin: auto;
-        width: 100%;
-        height: 300px;
+        width: 90%;
+        height: 350px;
         position: relative;
         overflow: hidden;
     }
     .Fotos{
-        width: 400px
+        width: 350px
     }
     
       .Local {
@@ -291,10 +301,16 @@ Footer{
         margin-left: -3em;
     }
     Main>Section>article>h1{
-        font-size: 12px;
+        font-size: 22px;
     }
     Main>section>h1{
-        font-size: 12px;
+        font-size: 22px;
+    }
+    .Profissionais{
+       width: 100%; 
+    }
+    .Produtos>img{
+        width: 30%;
     }
 }
 
