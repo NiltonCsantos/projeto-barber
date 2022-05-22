@@ -1,0 +1,302 @@
+@charset "Utf-8";
+
+html{
+    /* A cada 1rem será 10 px, pq por padrão vem 16px no html.*/
+    font-size: 62.5%;
+}
+body{
+    background-image: linear-gradient(To right, #000000 10%, #E6830C, #444444);
+}
+header{
+    background-color: black;
+    margin: -0.8em;
+}
+.Titulo{
+    position: relative;
+    top: -9em;
+    left: -3em;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+}
+.Titulo>h2{
+    color: #E48900;
+}
+
+Nav{
+    background-color: #E48900;
+    margin: -9em -0.4em 0em -1em;
+    padding: auto;
+    font-size: 2rem;
+}
+Nav>a{
+    margin: 0px 10px 0px 55px;
+    color: white;
+    text-decoration: none;
+}
+Nav>a:hover{
+    background-color: rgba(0, 0, 0, 0.609);
+    border-radius: 3px;
+}
+main{
+    background-color: rgba(135, 126, 115, 0.452);
+    margin: 0em 2em;
+    border-radius: 0px 25px 0px 0px;
+}
+Main>Section>article>h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+Main>section>h1{
+    text-align: center;
+    font-size: 30px;
+}
+Footer{
+    background-color: #000000;
+    margin: 0em 0em -1em 1em;
+    width: 100%;
+    max-width: 100%;
+}
+.Redes{
+    position: absolute;
+    left: 85%;
+    margin-top: -6em;
+}
+.Local {
+    position: relative;
+    bottom: -10em;
+    margin-left: 45%;
+}
+.Local>address>a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.Logo>a>img{
+    margin-left: 7em;
+}
+.Fotos:nth-child(1){
+   animation-delay: 5s;
+}
+.Fotos:nth-child(2){
+    animation-delay: 10s;
+}
+.Fotos:nth-child(3){
+    animation-delay: 15s;
+}
+.Fotos:nth-child(4){
+    animation-delay: 20s;
+}
+
+.Coluna1{
+    border-radius: 5%;
+    margin: auto;
+    width: 600px;
+    height: 424px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.Fotos{
+    position: absolute;
+    opacity: 0;
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide{
+    25%{
+        opacity: 1;
+        transform: scale(1.1,1.1);
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+.Profissionais{
+    width: 40%;
+}
+
+@media(Max-width:1224px){
+    .Titulo{
+        position: relative;
+        top: -188px;
+        left: -27px;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        font-size: 2em;
+    }
+    Titulo.h2{
+        color: #E48900;
+    }
+    Nav{
+        background-color: #E48900;
+        margin: -9em -0.4em 0em -1em;
+        padding: auto;
+        font-size: 2rem;
+    }
+}
+
+@media(Max-width: 765px){
+    header{
+        margin-right: -14px;
+        background-color: black;
+    }
+    .Titulo{
+        position: relative;
+        top: -188px;
+        left: 13px;
+        color: aqua;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    Nav{
+        background-color: #E48900;
+        margin: -9em -0.7em 0em -1em;
+        padding: auto;
+        font-size: 2rem;
+    }
+  
+    .Coluna1{
+        margin:auto;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .Local>address>a{
+        font-size: 1.5rem;
+    }
+    .Logo>a>img{
+        margin-left: -1em;
+    }
+    Main>Section>article>h1{
+        font-size: 20px;
+    }
+    Main>section>h1{
+        font-size: 20px;
+    }
+
+}
+@media(Max-witdh: 672px){
+    .Coluna1{
+        margin:auto;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .Fotos{
+        width: 500px
+    }
+}
+@media(Max-width: 522px) {
+    header{
+        max-width: 100vw;
+    }
+    .Titulo>h1,h2{
+        color: white;
+        font-size: 42px;
+        margin-top: 100px;
+        margin-bottom: -90px;
+    }
+
+   .Titulo>h2{
+       font-size: 24px;
+       color: #E48900;
+   }
+   header>a>img{
+       width: 130px;
+   }
+   Nav{
+    background-color: #E48900;
+    margin: -4.8em -0.4em 0em -1em;
+    padding: auto;
+    font-size: 2rem;
+}
+    Nav>a{
+        font-size: 1.4rem;
+        margin: 0px 10px 0px 25px;
+    }
+    .Redes{
+        position: absolute;
+        left: 71%;
+        margin-top: -6em;
+     }
+     Main>Section>article>h1{
+        font-size: 15px;
+    }
+    Main>section>h1{
+        font-size: 15px;
+    }
+}
+@media(Max-width: 460px){
+    header{
+       width: auto;
+    }
+    .Titulo>h1,h2{
+        color: white;
+        font-size: 28px;
+        margin-top: 126px;
+        margin-bottom: -124px;
+    }
+
+   .Titulo>h2{
+       font-size: 22px;
+       color: #E48900;
+   }
+    header>a>img{
+        width: 100px;
+    }
+    Nav{
+        position: relative;
+        background-color: #E48900;
+        margin: -6em -0.8em 0em -1em;
+        padding: auto;
+        font-size: 1rem;
+    }
+    Nav>a{
+        position: relative;
+        background-color: #E48900;
+        margin: -6em 1.8em 0em 1em;
+        padding: auto;
+        font-size: 1.2rem;
+    }
+    
+    .Coluna1{
+        margin: auto;
+        width: 100%;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+    .Fotos{
+        width: 400px
+    }
+    
+      .Local {
+        position: relative;
+        bottom: -10em;
+        margin-left: 55%;
+    }
+    .Logo>a>img{
+        margin-left: -3em;
+    }
+    Main>Section>article>h1{
+        font-size: 12px;
+    }
+    Main>section>h1{
+        font-size: 12px;
+    }
+}
+
+
+
