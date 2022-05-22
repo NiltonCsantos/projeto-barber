@@ -238,8 +238,11 @@ Footer{
         font-size: 15px;
     }
     Body{
-       Font-size: auto
+       Font-size: auto;
     }
+       .Profissionais{
+        Width: 100%;
+     }
 }
 @media(Max-width: 460px){
     header{
@@ -282,7 +285,7 @@ Footer{
         overflow: hidden;
     }
     .Fotos{
-        width: 400px
+        width: 400px;
     }
     
       .Local {
@@ -300,8 +303,11 @@ Footer{
         font-size: 12px;
     }
     Body{
-       Font-size: auto
+       Font-size: auto;
     }
+    .Profissionais{
+        Width: 100%;
+     }
 }
 
 
