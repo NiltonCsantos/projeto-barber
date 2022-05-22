@@ -120,7 +120,7 @@ Footer{
 }
 
 .Profissionais{
-    width: 40%;
+    width: auto;
 }
 
 @media(Max-width:1224px){
@@ -237,6 +237,9 @@ Footer{
     Main>section>h1{
         font-size: 15px;
     }
+    Body{
+       Font-size: auto
+    }
 }
 @media(Max-width: 460px){
     header{
@@ -295,6 +298,9 @@ Footer{
     }
     Main>section>h1{
         font-size: 12px;
+    }
+    Body{
+       Font-size: auto
     }
 }
 
