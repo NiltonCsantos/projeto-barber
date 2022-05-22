@@ -120,7 +120,7 @@ Footer{
 }
 
 .Profissionais{
-    width: 40%;
+    width: auto;
 }
 .Produtos>img{
     width:15%;
@@ -245,9 +245,11 @@ Footer{
     Main>section>h1{
         font-size: 25px;
     }
-    
+       .Profissionais{
+        Width: 100%;
+     }
 }
-@media(Max-width: 496px){
+@media (Max-width: 496px) {
     header{
        position: relative;
        right: -0.4em;
@@ -289,7 +291,7 @@ Footer{
         overflow: hidden;
     }
     .Fotos{
-        width: 350px
+        width: 400px ;
     }
     
       .Local {
@@ -312,6 +314,10 @@ Footer{
     .Produtos>img{
         width: 30%;
     }
+    Body{
+       Font-size: auto;
+    }
+  
 }
 
 
