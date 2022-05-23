@@ -168,6 +168,10 @@ Footer{
         padding: auto;
         font-size: 2rem;
     }
+    Nav>a{
+        font-size: 1.8rem;
+        margin: 0px 10px 0px 25px;
+    }
 
     main{
         width: 100%;
